@@ -95,19 +95,19 @@
 
 @media (max-width: 991.98px) {
     .navbar .navbar-nav .nav-link,
-    .navbar.shadow-sm .navbar-nav .nav-link {
+    .navbar.shadow-sm .navbar-nav .nav-link .btn {
         margin-right: 0;
         padding: 10px 0;
     }
 
-    .navbar .navbar-nav {
+    .navbar .navbar-nav .btn {
         margin-top: 8px;
         border-top: 1px solid var(--light);
     }
 }
 
 @media (min-width: 992px) {
-    .navbar.shadow-sm .navbar-nav .nav-link {
+    .navbar.shadow-sm .navbar-nav .nav-link .btn{
         padding: 20px 0;
     }
 
